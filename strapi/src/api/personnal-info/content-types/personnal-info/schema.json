@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "personnal_infos",
+  "info": {
+    "singularName": "personnal-info",
+    "pluralName": "personnal-infos",
+    "displayName": "personnalInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "jobTitle": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "phone": {
+      "type": "string",
+      "maxLength": 10,
+      "minLength": 10,
+      "required": true
+    },
+    "birthday": {
+      "type": "date",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": false
+    },
+    "mainPicture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
