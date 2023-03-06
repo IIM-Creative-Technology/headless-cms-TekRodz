@@ -5,6 +5,8 @@
 front : https://portfolio-kevin-michel.netlify.app
 strapi : https://strapi-portfolio-uwr7.onrender.com
 
+Malheureusement le chargement du strapi est très long, donc le chargement prend beaucoup de temps
+
 ## Pour ce connecter à un compte admin :
 mail : tekrodz@gmail.com 
 mdp : admin_Strapi01
